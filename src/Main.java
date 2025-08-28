@@ -14,5 +14,10 @@ public class Main {
         System.out.println("6 GIT BRANCH - VER LAS RAMAS");
         System.out.println("7 GIT FETCH - RAMAS REMOTAS");
         System.out.println("8 GIT SWITCH -C - CREAR Y POSICIONARME SOBRE LA RAMA");
+
+
+        System.out.println("Nombre Completo: Juan Emanuel Ulloa Castro");
+        System.out.println("Lugar donde vivo: Chocontá, Cundinamarca")
+        System.out.println("Tengo mascota: Si, tengo 2 perros y dos gatos");
     }
 }
