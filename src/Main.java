@@ -1,23 +1,65 @@
-import java.sql.SQLOutput;
+import java.util.Random;
+import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
 
-        System.out.println("HOLA MUNDO");
-        System.out.println("1 GIT STATUS - ESTADO RAMA");
-        System.out.println("2 GIT ADD . - AGREGAR ARCHIVOS");
-        System.out.println("3 GIT COMMIT -M GUARDAR LOCAL");
-        System.out.println("4 GIT PUSH ORIGIN - SUBIR CAMBIOS");
-        System.out.println("5 GIT CLONE - CLONAR PROYECTO");
-        System.out.println("6 GIT BRANCH - VER LAS RAMAS");
-        System.out.println("7 GIT FETCH - RAMAS REMOTAS");
-        System.out.println("8 GIT SWITCH -C - CREAR Y POSICIONARME SOBRE LA RAMAAA");
+        //ejercicio numero 1//
+        /*
 
+        int n1, n2, Suma;
+        System.out.println("Digite el primer valor");
+        n1 = teclado.nextInt();
+        System.out.println("Digite el segundo valor");
+        n2 = teclado.nextInt();
+        Suma    = n1+n2;
+        System.out.println("El resultado de la suma es:" + Suma);}
 
-        System.out.println("Nombre Completo: Juan Emanuel Ulloa Castro");
-        System.out.println("Lugar donde vivo: Chocontá, Cundinamarca")
-        System.out.println("Tengo mascota: Si, tengo 2 perros y dos gatos");
+        //ejercicio numero 2//
+        /*
+
+        Random ale= new Random();
+        int n1,n2, Suma;
+        n1=ale.nextInt(51);
+        System.out.println(n1);
+        n2=ale.nextInt((10-5)+1)+5;
+        System.out.println(n2);
+
+        //ejercicio numero 3//
+        /*
+
+        Random ale = new Random();
+      int suma = 0;
+      for (int i = 1; i <= 101; ) {
+          i++;
+          int n = ale.nextInt(200) + 1;
+          System.out.println(n);
+          suma += n;
+      }
+      System.out.println("el resultado del ejercicio es:" + suma);
+
+      //ejercicio numero 4//
+         /*
+
+    Random ale = new Random();
+
+    int suma = 0;
+    int sumapares =0;
+    int sumaimpares =0;
+        for (int i = 1; i <= 101; ) {
+        i++;
+        int n = ale.nextInt(200) + 1;
+        System.out.println(n);
+        suma += n;
+        if (n% 2== 0){
+            sumapares += n;
+        }else {
+            sumaimpares +=n;
+        }
+
+    }
+        System.out.println("el resultado de los pares es:" + sumapares);
+        System.out.println("el resultado de los impares es;" + sumaimpares);
     }
 }
